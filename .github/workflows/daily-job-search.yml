@@ -64,7 +64,7 @@ jobs:
             --db output/jobs.sqlite \
             --csv output/ranked_jobs.csv \
             --new-csv output/new_matches.csv \
-            --min-score 65 \
+            --min-score 0 \
             --request-timeout 12 \
             --company-timeout 75 | tee output/run_summary.json
 
